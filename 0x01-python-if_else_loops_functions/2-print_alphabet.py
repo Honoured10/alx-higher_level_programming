@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-for i in range(ord('a'), ord('z')+1):
+letter = range(ord('a'), ord('z')+1)
+for i in letter:
     print('{:c}'.format(i), end="")
