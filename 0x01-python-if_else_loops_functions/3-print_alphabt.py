@@ -4,3 +4,4 @@ for i in letter:
     if i == ord('e') or i == ord('q'):
         continue
     print('{:c}'.format(i), end='')
+    
