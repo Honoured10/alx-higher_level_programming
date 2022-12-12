@@ -14,4 +14,4 @@ if __name__ == "__main__":
 
     # Print the names
     for name in names:
-        print(name)
+        print(name, end="")
