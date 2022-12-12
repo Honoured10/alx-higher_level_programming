@@ -13,5 +13,5 @@ if __name__ == "__main__":
     names.sort()
 
     # Print the names
-    for name in names:
-        print(name, end="")
+    # for name in names:
+    print(names, end="")
