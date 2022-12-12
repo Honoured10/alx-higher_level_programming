@@ -1,17 +1,5 @@
 #!/usr/bin/python3
-# Import the hidden_4 module
-import hidden_4
-
 if __name__ == "__main__":
-    # Get the names defined by the module
-    names = dir(hidden_4)
-
-    # Filter out names that start with __
-    names = [name for name in names if not name.startswith("__")]
-
-    # Sort the names alphabetically
-    names.sort()
-
-    # Print the names
-    # for name in names:
-    print(names, end="")
+    import hidden_4
+    print(''.join([i + '\n' for i in dir(hidden_4)
+                  if "__" not in i[:2]]), end="")
