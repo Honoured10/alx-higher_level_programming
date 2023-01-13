@@ -1,0 +1,2 @@
+0
+because the script only contains print statements that only display strings literals and don't create any int objects
